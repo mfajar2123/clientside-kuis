@@ -1,0 +1,147 @@
+/* Navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand,
+.navbar-text {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/* Home */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.home-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #0069d9;
+}
+.pe {
+  font-size: 20px;
+}
+
+/* Quiz */
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.question-progress {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.quiz-question {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.option-btn {
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.option-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.option-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #0069d9;
+}
+
+/* Result */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.result-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  position: relative;
+ 
+}
+
+.result-score {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.result-message {
+
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.result-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.result-button:hover {
+  background-color: #0069d9;
+}
